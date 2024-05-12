@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(110, 110, 250) ;
+}
+p1{
+    background-color: beige; color: red;
+}
+p2{
+    background-color: rgb(0, 0, 142) ; color: beige;
+}
+p3{
+    background: url("eee.jpg") repeat center ;
+    color: black; size: contain; width: 200; height: 100;
+} 
+}
+p4{
+    background: url(wewe.jpg) right no-repeat, url(downloadrr.jpg) left top repeat;
+}
