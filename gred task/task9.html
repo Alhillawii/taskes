@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+<title>task9</title>
+<style>
+    .grid
+{
+    display: grid;
+    width: 700px;
+    height: 700px;
+    margin: 20px;
+}
+.one
+{
+    background-color: rgb(102, 17, 17);
+    opacity: 0.8;
+    grid-area: 1/1/4/4;
+position: relative;
+z-index: 6;
+}
+.two
+{
+    background-color: rgb(26, 130, 26);
+    opacity: 0.8;
+    grid-area: 3/3/6/6;
+    position: relative;
+    z-index: 4;
+    
+}
+.three
+{
+    background-color: rgb(86, 86, 152);
+    opacity: 0.8;
+    grid-area: 2/2/5/5;
+    position: relative;
+    z-index: 3;
+    
+}
+</style>
+</head>
+<body>
+    <div class="grid">
+        <div class="one">Top</div>
+        <div class="two">Middle</div>
+        <div class="three">Bottom</div>
+    </div>
+    
+</body>
+</html>
